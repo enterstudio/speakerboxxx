@@ -2,12 +2,12 @@ source "https://rubygems.org"
 
 ruby "2.3.1"
 
-gem "addressable", require: "addressable/uri"
+gem "addressable", ">= 2.8.0", require: "addressable/uri"
 gem "coal_car", "~> 0.2"
 gem "coffee-rails", "~> 4.1.0"
 gem "compass-rails"
 gem "jquery-rails"
-gem "octokit"
+gem "octokit", ">= 4.6.0"
 gem "omniauth-github"
 gem "omniauth-slack", "2.3.0"
 gem "peek"
@@ -37,5 +37,5 @@ end
 group :test do
   gem "rspec-rails", "3.5.0"
   gem "rubocop"
-  gem "webmock"
+  gem "webmock", ">= 2.1.0"
 end
