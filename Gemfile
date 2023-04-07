@@ -21,7 +21,7 @@ gem "puma", "~> 3.0"
 gem "rake", "=11.2.2"
 gem "rails", ">= 5.0.0.1", "< 5.1"
 gem "sass-rails", "~> 5.0"
-gem "sidekiq"
+gem "sidekiq", ">= 7.0.8"
 gem "slack-ruby-client"
 gem "uglifier", ">= 1.3.0"
 
